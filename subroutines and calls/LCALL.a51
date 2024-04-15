@@ -1,0 +1,13 @@
+ORG 0000h
+	LCALL X
+	MOV R3,A
+	X: MOV A,#05h
+	SUBB A,#02h
+	MOV R0,A
+	MOV A,#02h
+	SUBB A,#01h
+	MOV B,A
+	MOV A,R0
+	DIV AB
+	RET
+	

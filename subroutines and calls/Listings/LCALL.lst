@@ -1,0 +1,39 @@
+A51 MACRO ASSEMBLER  LCALL                                                                03/17/2024 17:07:51 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\LCALL.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE LCALL.a51 SET(SMALL) DEBUG PRINT(.\Listings\LCALL.lst) OBJECT(.\Objects
+                      \LCALL.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000h
+0000 120004            2             LCALL X
+0003 FB                3             MOV R3,A
+0004 7405              4             X: MOV A,#05h
+0006 9402              5             SUBB A,#02h
+0008 F8                6             MOV R0,A
+0009 7402              7             MOV A,#02h
+000B 9401              8             SUBB A,#01h
+000D F5F0              9             MOV B,A
+000F E8               10             MOV A,R0
+0010 84               11             DIV AB
+0011 22               12             RET
+*** WARNING #A41 IN 12 (LCALL.a51, LINE 12): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  LCALL                                                                03/17/2024 17:07:51 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+X. . . . . . . . .  C ADDR   0004H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 0 ERROR(S)

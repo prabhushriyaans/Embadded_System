@@ -1,0 +1,3 @@
+".\Objects\IF.obj" 
+TO ".\Objects\calls" 
+PRINT(".\Listings\calls.m51") RAMSIZE(256) 
