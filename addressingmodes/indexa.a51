@@ -1,2 +1,0 @@
-ORG 0000h
-	MOVC A,@A+DPTR

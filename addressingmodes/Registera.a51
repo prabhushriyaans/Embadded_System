@@ -1,4 +1,0 @@
-ORG 000h
-	MOV R1,#05h
-	MOV A,#02h
-	MOV R0,A
