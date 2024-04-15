@@ -1,3 +1,0 @@
-".\Objects\BCD.obj" 
-TO ".\Objects\arithmeticoP" 
-PRINT(".\Listings\arithmeticoP.m51") RAMSIZE(256) 

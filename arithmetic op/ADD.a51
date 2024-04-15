@@ -1,3 +1,0 @@
-ORG 000h
-	MOV A,#02h
-	ADD A,#03h

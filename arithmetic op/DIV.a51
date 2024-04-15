@@ -1,4 +1,0 @@
-ORG 000h
-	MOV A,#11h
-	MOV B,#02h
-	DIV AB
