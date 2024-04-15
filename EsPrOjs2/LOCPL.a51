@@ -1,4 +1,0 @@
-ORG 0000h
-	MOV A,#01h
-	CPL A
-	END
