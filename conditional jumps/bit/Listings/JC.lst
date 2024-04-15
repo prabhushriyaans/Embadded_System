@@ -1,0 +1,33 @@
+A51 MACRO ASSEMBLER  JC                                                                   04/14/2024 19:00:03 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\JC.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE JC.a51 SET(SMALL) DEBUG PRINT(.\Listings\JC.lst) OBJECT(.\Objects\JC.ob
+                      j) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000h
+0000 D2D7              2             SETB CY
+0002 4002              3             JC LABEL
+0004 7402              4                     MOV A,#02h
+0006 74FF              5                     LABEL:MOV A,#0FFh
+                       6                             END
+                                                     
+A51 MACRO ASSEMBLER  JC                                                                   04/14/2024 19:00:03 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+CY . . . . . . . .  B ADDR   00D0H.7 A   
+LABEL. . . . . . .  C ADDR   0006H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

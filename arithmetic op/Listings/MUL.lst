@@ -1,0 +1,30 @@
+A51 MACRO ASSEMBLER  MUL                                                                  03/10/2024 23:44:55 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\MUL.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE MUL.a51 SET(SMALL) DEBUG PRINT(.\Listings\MUL.lst) OBJECT(.\Objects\MUL
+                      .obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 000h
+0000 7412              2             MOV A,#12h
+0002 75F003            3             MOV B,#03h
+0005 A4                4             MUL AB
+*** WARNING #A41 IN 4 (MUL.a51, LINE 4): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  MUL                                                                  03/10/2024 23:44:55 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 0 ERROR(S)

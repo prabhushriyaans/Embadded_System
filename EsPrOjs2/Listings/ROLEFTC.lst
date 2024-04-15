@@ -1,0 +1,29 @@
+A51 MACRO ASSEMBLER  ROLEFTC                                                              02/25/2024 16:45:38 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\ROLEFTC.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE ROLEFTC.a51 SET(SMALL) DEBUG PRINT(.\Listings\ROLEFTC.lst) OBJECT(.\Obj
+                      ects\ROLEFTC.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+0000                   2     ORG 0000h
+0000 7401              3             MOV A,#01h
+0002 33                4             RLC A
+                       5             END
+A51 MACRO ASSEMBLER  ROLEFTC                                                              02/25/2024 16:45:38 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

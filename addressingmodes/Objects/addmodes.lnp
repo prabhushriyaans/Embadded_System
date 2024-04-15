@@ -1,0 +1,3 @@
+".\Objects\indexa.obj" 
+TO ".\Objects\addmodes" 
+PRINT(".\Listings\addmodes.m51") RAMSIZE(256) 

@@ -1,0 +1,28 @@
+A51 MACRO ASSEMBLER  ADD                                                                  03/10/2024 16:15:40 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\ADD.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE ADD.a51 SET(SMALL) DEBUG PRINT(.\Listings\ADD.lst) OBJECT(.\Objects\ADD
+                      .obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 000h
+0000 7402              2             MOV A,#02h
+0002 2403              3             ADD A,#03h
+*** WARNING #A41 IN 3 (ADD.a51, LINE 3): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  ADD                                                                  03/10/2024 16:15:40 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 0 ERROR(S)

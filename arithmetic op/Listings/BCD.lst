@@ -1,0 +1,29 @@
+A51 MACRO ASSEMBLER  BCD                                                                  03/11/2024 00:00:43 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\BCD.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE BCD.a51 SET(SMALL) DEBUG PRINT(.\Listings\BCD.lst) OBJECT(.\Objects\BCD
+                      .obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 000h
+0000 7465              2             MOV A,#65h
+0002 2455              3             ADD A,#55h
+0004 D4                4             DA A
+*** WARNING #A41 IN 4 (BCD.a51, LINE 4): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  BCD                                                                  03/11/2024 00:00:43 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 0 ERROR(S)

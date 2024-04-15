@@ -1,0 +1,4 @@
+ORG 000h
+	MOV 60h,#05h
+	MOV R0,#60h
+	MOV A,@R0

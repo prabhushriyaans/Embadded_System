@@ -1,0 +1,4 @@
+ORG 000h
+	MOV A,#65h
+	ADD A,#55h
+	DA A

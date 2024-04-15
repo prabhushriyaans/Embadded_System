@@ -1,0 +1,29 @@
+A51 MACRO ASSEMBLER  REGISTERA                                                            03/10/2024 16:03:46 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\Registera.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE Registera.a51 SET(SMALL) DEBUG PRINT(.\Listings\Registera.lst) OBJECT(.
+                      \Objects\Registera.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 000h
+0000 7905              2             MOV R1,#05h
+0002 7402              3             MOV A,#02h
+0004 F8                4             MOV R0,A
+*** WARNING #A41 IN 4 (Registera.a51, LINE 4): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  REGISTERA                                                            03/10/2024 16:03:46 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 0 ERROR(S)
