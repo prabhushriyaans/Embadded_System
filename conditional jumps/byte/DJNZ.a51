@@ -1,6 +1,0 @@
-ORG 0000h
-	MOV R5,#02h
-	MOV A,#02h
-	LABEL: ADD A,#02h
-		DJNZ R5,LABEL
-			END

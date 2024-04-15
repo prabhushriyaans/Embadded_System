@@ -1,7 +1,0 @@
-ORG 0000h
-	 CLR CY
-	JNC LABEL
-		MOV A,#02h
-		LABEL:MOV A,#0FFh
-			END
-			

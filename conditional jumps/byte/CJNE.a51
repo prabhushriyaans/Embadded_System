@@ -1,7 +1,0 @@
-ORG 0000h
-	MOV A,#01h
-	MOV B,#02h
-	CJNE A,B,LABEL
-		ADD A,B
-		LABEL:INC A
-			END

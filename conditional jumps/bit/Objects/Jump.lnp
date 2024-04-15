@@ -1,3 +1,0 @@
-".\Objects\JNB.obj" 
-TO ".\Objects\Jump" 
-PRINT(".\Listings\Jump.m51") RAMSIZE(256) 
